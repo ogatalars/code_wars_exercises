@@ -25,3 +25,11 @@ console.log(XO("xxOo"));
 console.log(XO("Oo"));
 console.log(XO("ooom"));
 console.log(XO("xxxm"));
+
+// another way, cleaner
+
+function XO(str) {
+  let x = str.match(/x/gi);
+  let o = str.match(/o/gi);
+  return (x && x.length) === (o && o.length);
+}
