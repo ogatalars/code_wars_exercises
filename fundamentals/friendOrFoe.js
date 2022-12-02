@@ -14,7 +14,7 @@ function friend(friends) {
   let listaAmigos = [];
   for (let i = 0; i < friends.length; i++) {
     if (
-      friends[i].length <= 4 &&
+      friends[i].length == 4 &&
       typeof friends[i] !== Number &&
       isNaN(friends[i]) !== false
     ) {
