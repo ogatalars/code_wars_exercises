@@ -4,13 +4,18 @@
 
 // solution('abc', 'bc') // returns true
 // solution('abc', 'd') // returns false
+// function solution(str, ending) {
+//   // TODO: complete
+//   if (str.slice(-1) == ending.slice(-1)) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// solution("abc", "bc");
+// let nome = "abc";
+
+// solution 3
 function solution(str, ending) {
-  // TODO: complete
-  if (str.slice(-1) == ending.slice(-1)) {
-    return true;
-  } else {
-    return false;
-  }
+  return str.endsWith(ending);
 }
-solution("abc", "bc");
-let nome = "abc";
