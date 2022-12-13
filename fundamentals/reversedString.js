@@ -10,5 +10,5 @@ function solution(str) {
 //my solution
 
 // function solution(str) {
-//   return str.split("").reverse().join();
+//   return str.split("").reverse().join('');
 // }
