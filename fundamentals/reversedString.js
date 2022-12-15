@@ -4,11 +4,11 @@
 // 'word'   =>  'drow'
 
 // first solution found on 'sololearn'
-function solution(str) {
-  return str === "" ? "" : solution(str.substr(1)) + str.charAt(0);
-}
+// function solution(str) {
+//   return str === "" ? "" : solution(str.substr(1)) + str.charAt(0);
+// }
 //my solution
 
-// function solution(str) {
-//   return str.split("").reverse().join('');
-// }
+function solution(str) {
+  return str.split("").reverse().join("");
+}
