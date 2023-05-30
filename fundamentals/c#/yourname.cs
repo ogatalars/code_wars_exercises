@@ -8,7 +8,7 @@ public class yourname
     {
         string name;
         Console.WriteLine("Digite seu nome: ");
-        name = Console.Readline();
+        name = Console.ReadLine();
         Console.WriteLine("Olá, " + name + "!");
 
     }
