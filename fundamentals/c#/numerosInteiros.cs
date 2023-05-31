@@ -42,3 +42,26 @@ class Program
         Console.WriteLine("O maior número é: " + max);
     }
 }
+
+
+// E se fosse o menor?
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        int menor = 0;
+        int numero = 0;
+        for (int j = 0; j < 10; j++)
+        {
+            Console.WriteLine("Digite um número Inteiro: ");
+            numero = int.Parse(Console.ReadLine());
+            if (numero < menor)
+            {
+                menor = numero;
+            }
+        }
+        Console.WriteLine("O menor número é: " + menor);
+    }
+}
+
